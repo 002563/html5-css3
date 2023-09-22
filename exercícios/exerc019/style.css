@@ -1,0 +1,40 @@
+@charset 'UTF-8';
+
+/* 
+    o id em HTML equivale à # em CSS (não utilizar espaço);
+    id é único. Só pode haver um por documento;
+    o class em HTML equivale ao . em CSS;
+    class permite vário elementos com o mesmo nome;
+
+*/
+
+body{
+    background-color: rgb(151, 194, 179);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(2, 88, 60);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(3, 66, 45);
+    color: white;
+}
+h2 {
+    color: rgb(41, 143, 109);
+}
+
+.basico {
+    color: rgb(41, 143, 109);
+    font-weight: bold;
+}
+
+.intermediario {
+    color: rgb(143, 133, 41);
+}
+
+.avancado {
+    color: rgb(143, 48, 41);
+}
