@@ -3,20 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;*/
+
+            /* Shorthand - background 
+                color > image > position > repaeat > [size]* > attachment
+            */
+
+            /* size não funciona nos navegadores, mesmo constando na documentação oficial da W3C, por isso foi colocado logo abaixo a shorthand */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
             background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -27,7 +37,11 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur id modi repellendus deleniti doloremque laborum eos. Qui, minima! Alias quaerat vero repellendus esse harum perferendis eius repudiandae. Voluptate, laborum et? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint similique labore dolorem dolores esse at. Praesentium illo deleniti repellendus ut dicta doloremque explicabo facere, voluptas error fuga asperiores. Voluptates, similique! Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero similique ratione neque eius illo alias nisi quia natus corporis dolorem ea est, reiciendis dolores sit sunt porro eum officiis minima?</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur id modi repellendus deleniti doloremque laborum eos. Qui, minima! Alias quaerat vero repellendus esse harum perferendis eius repudiandae. Voluptate, laborum et? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint similique labore dolorem dolores esse at. Praesentium illo deleniti repellendus ut dicta doloremque explicabo facere, voluptas error fuga asperiores. Voluptates, similique! Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero similique ratione neque eius illo alias nisi quia natus corporis dolorem ea est, reiciendis dolores sit sunt porro eum officiis minima?
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur id modi repellendus deleniti doloremque laborum eos. Qui, minima! Alias quaerat vero repellendus esse harum perferendis eius repudiandae. Voluptate, laborum et? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint similique labore dolorem dolores esse at. Praesentium illo deleniti repellendus ut dicta doloremque explicabo facere, voluptas error fuga asperiores. Voluptates, similique! Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero similique ratione neque eius illo alias nisi quia natus corporis dolorem ea est, reiciendis dolores sit sunt porro eum officiis minima?
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur id modi repellendus deleniti doloremque laborum eos. Qui, minima! Alias quaerat vero repellendus esse harum perferendis eius repudiandae. Voluptate, laborum et? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint similique labore dolorem dolores esse at. Praesentium illo deleniti repellendus ut dicta doloremque explicabo facere, voluptas error fuga asperiores. Voluptates, similique! Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero similique ratione neque eius illo alias nisi quia natus corporis dolorem ea est, reiciendis dolores sit sunt porro eum officiis minima?
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur id modi repellendus deleniti doloremque laborum eos. Qui, minima! Alias quaerat vero repellendus esse harum perferendis eius repudiandae. Voluptate, laborum et? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint similique labore dolorem dolores esse at. Praesentium illo deleniti repellendus ut dicta doloremque explicabo facere, voluptas error fuga asperiores. Voluptates, similique! Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero similique ratione neque eius illo alias nisi quia natus corporis dolorem ea est, reiciendis dolores sit sunt porro eum officiis minima?
+        </p>
     </main>
 </body>
 </html>
